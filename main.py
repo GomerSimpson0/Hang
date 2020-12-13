@@ -13,7 +13,8 @@ words = ['action', 'activity', 'age', 'air', 'area', 'authority', 'bank', 'body'
         'room', 'school', 'sense', 'service', 'side', 'society', 'staff', 'story', 'street', 'student', 'study', 'support', 'system', 'table',
         'teacher', 'team', 'term', 'thing', 'time', 'type', 'use', 'view', 'war', 'water', 'way', 'week', 'woman', 'word', 'work', 'world', 'year']
 
-print('Hello, now we will play the game "Hang"')
+os.system('cls' if os.name == 'nt' else 'clear')
+print('Hello, let`s play the game "Hang"')
 print("Do you know rules?")
 cache = input("\nInput your choise(yn): ")
 if cache == 'n':
