@@ -50,7 +50,7 @@ for i in range(100):
     del tmp
     if tmp2 == False:
         os.system('cls' if os.name == 'nt' else 'clear')
-        print("\n\nWow, you guess word!")
+        print("\n\nWow, you guessed word!")
         print("\nSee you later")
         sys.exit()
     print('\n\n')
